@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Youtube</title>
+</head>
+
+<body>
+    <header>
+        <div class="left-section">
+            <button onclick="showAndHide()">
+                <i class="material-icons">menu</i>
+            </button>
+            <img src="./Images/youtube-logo.png">
+        </div>
+        <div class="mid-section">
+            <form action="" class="form">
+                <input class="bar" type="text" placeholder="Search Here...">
+                <button onclick="">
+                    <i class="material-icons" id="search">search</i>
+                </button>
+
+                <i class="material-icons">mic</i>
+            </form>
+            <ul class="value">
+                <li></li>
+            </ul>
+        </div>
+        <div class="right-section">
+            <i class="material-icons">notifications</i>
+            <i class="material-icons">person</i>
+            <i class="material-icons">list</i>
+        </div>
+    </header>
+
+
+
+
+
+    <div class="categories">
+        <div>all catergories</div>
+        <div>live </div>
+        <div>music </div>
+        <div>games</div>
+        <div>news </div>
+
+    </div>
+
+
+
+    <div class="main-nav">
+        <aside>
+            <nav>
+                <a href="#">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                </a>
+            </nav>
+            <nav>
+                <a href="#">
+                    <i class="material-icons">explore</i>
+                    <span>explore</span>
+                </a>
+            </nav>
+            <nav>
+                <a href="#">
+                    <i class="material-icons">subscriptions</i>
+                    <span>subscriptions</span>
+                </a>
+            </nav>
+            <nav>
+                <a href="#">
+                    <i class="material-icons">add</i>
+                    <span>following</span>
+                </a>
+            </nav>
+            <nav>
+                <a href="#">
+                    <i class="material-icons">settings</i>
+                    <span>settings</span>
+                </a>
+            </nav>
+            <nav>
+                <a href="#">
+                    <i class="material-icons">help</i>
+                    <span>help</span>
+                </a>
+            </nav>
+            <nav>
+                <a href="#">
+                    <i class="material-icons">import_contacts</i>
+                    <span>contact us</span>
+                </a>
+            </nav>
+            <nav>
+                <a href="#">
+                    <i class="material-icons">person</i>
+                    <span>User Settings </span>
+                </a>
+            </nav>
+            <hr>
+            <div class="channels">
+                <nav>
+                    <a href="#">
+                        <img src="./Images/pexels-alison-m-2915099.jpg" alt="">
+                        <span>Maro </span>
+                        <span class="views"> 46</span>
+                    </a>
+                </nav>
+                <nav>
+                    <a href="#">
+                        <img src="./Images/pexels-david-skyrius-2188888.jpg" alt="">
+                        <span>S7s </span>
+                        <span class="views"> 100</span>
+                    </a>
+                </nav>
+                <nav>
+                    <a href="#">
+                        <img src="./Images/pexels-elianne-dipp-4751260.jpg" alt="">
+                        <span>Joo </span>
+                        <span class="views"> 200</span>
+                    </a>
+                </nav>
+                <nav>
+                    <a href="#">
+                        <img src="./Images/pexels-gustavo-galeano-maz-7377687.jpg" alt="">
+                        <span>Tarek </span>
+                        <span class="views"> 300</span>
+                    </a>
+                </nav>
+                <nav>
+                    <a href="#">
+                        <img src="./Images/pexels-irina-iriser-1090972.jpg" alt="">
+                        <span>Hesham </span>
+                        <span class="views"> 500</span>
+                    </a>
+                </nav>
+                <nav>
+                    <a href="#">
+                        <img src="./Images/pexels-max-rahubovskiy-6969830.jpg" alt="">
+                        <span>Ahmed </span>
+                        <span class="views"> 1k</span>
+                    </a>
+                </nav>
+                <nav>
+                    <a href="#">
+                        <img src="./Images/pexels-olya-prutskova-7420656.jpg" alt="">
+                        <span>Mohamed </span>
+                        <span class="views"> 2k</span>
+                    </a>
+                </nav>
+                <nav>
+                    <a href="#">
+                        <img src="./Images/pexels-olya-prutskova-7420656.jpg" alt="">
+                        <span>Shroud </span>
+                        <span class="views"> 4k</span>
+                    </a>
+                </nav>
+                <nav>
+                    <a href="#">
+                        <img src="./Images/pexels-olya-prutskova-7420656.jpg" alt="">
+                        <span>Njnja </span>
+                        <span class="views"> 5k</span>
+                    </a>
+                </nav>
+                <nav>
+                    <a href="#">
+                        <img src="./Images/pexels-olya-prutskova-7420656.jpg" alt="">
+                        <span>Gorge </span>
+                        <span class="views"> 3k</span>
+                    </a>
+                </nav>
+                <nav>
+                    <a href="#">
+                        <img src="./Images/pexels-olya-prutskova-7420656.jpg" alt="">
+                        <span>Michael </span>
+                        <span class="views"> 10k</span>
+                    </a>
+                </nav>
+                <nav id="more">
+                    <span class="see-more">
+                        <a href="#">follow more channels to see more..</a>
+                    </span>
+                </nav>
+
+
+            </div>
+        </aside>
+        <main>
+            <div class="creator">
+
+                <div class="creator-img">
+                    <video src="./Images/mashy.mp4" controls></video>
+                    <div class="creator-profile">
+                        <img src="./Images/pexels-david-skyrius-2188888.jpg" alt="">
+                        <p>1$ hotel room vs 10k$ hotel room</p>
+                    </div>
+                    <div class="creator-title">
+                        <a href="">
+                            hesham ahmed
+                        </a>
+                    </div>
+                    <div class="creator-views">
+                        <p>300k view... 3 month ago</p>
+                        <span class="likes">300k <i class="material-icons">thumb_up</i>
+                            <span class="likes">10k <i class="material-icons">thumb_down</i></span>
+
+                        </span>
+
+                    </div>
+
+                </div>
+                <div class="creator-img">
+                    <video src="./Images/video (240p).mp4" controls></video>
+                    <div class="creator-profile">
+                        <img src="./Images/pexels-david-skyrius-2188888.jpg" alt="">
+                        <p>1$ hotel room vs 10k$ hotel room</p>
+                    </div>
+                    <div class="creator-title">
+                        <a href="">
+                            hesham ahmed
+                        </a>
+                    </div>
+                    <div class="creator-views">
+                        <p>300k view... 3 month ago</p>
+                        <span class="likes">300k <i class="material-icons">thumb_up</i>
+                            <span class="likes">10k <i class="material-icons">thumb_down</i></span>
+
+                        </span>
+
+                    </div>
+
+                </div>
+                <div class="creator-img">
+                    <video src="./Images/pexels-kindel-media-6774633 (240p).mp4" controls></video>
+                    <div class="creator-profile">
+                        <img src="./Images/pexels-david-skyrius-2188888.jpg" alt="">
+                        <p>1$ hotel room vs 10k$ hotel room</p>
+                    </div>
+                    <div class="creator-title">
+                        <a href="">
+                            hesham ahmed
+                        </a>
+                    </div>
+                    <div class="creator-views">
+                        <p>300k view... 3 month ago</p>
+                        <span class="likes">300k <i class="material-icons">thumb_up</i>
+                            <span class="likes">10k <i class="material-icons">thumb_down</i></span>
+
+                        </span>
+
+                    </div>
+
+                </div>
+                <div class="creator-img">
+                    <video src="./Images/pexels_videos_1448735 (360p).mp4" controls></video>
+                    <div class="creator-profile">
+                        <img src="./Images/pexels-david-skyrius-2188888.jpg" alt="">
+                        <p> 1$ hotel room vs 10k$ hotel room</p>
+                    </div>
+                    <div class="creator-title">
+                        <a href="">
+                            hesham ahmed
+                        </a>
+                    </div>
+                    <div class="creator-views">
+                        <p>300k view... 3 month ago</p>
+                        <span class="likes">300k <i class="material-icons">thumb_up</i>
+                            <span class="likes">10k <i class="material-icons">thumb_down</i></span>
+
+                        </span>
+
+                    </div>
+
+                </div>
+                <div class="creator-img">
+                    <video src="./Images/pexels_videos_1635382 (360p).mp4" controls></video>
+                    <div class="creator-profile">
+                        <img src="./Images/pexels-david-skyrius-2188888.jpg" alt="">
+                        <p>1$ hotel room vs 10k$ hotel room </p>
+                    </div>
+                    <div class="creator-title">
+                        <a href="">
+                            hesham ahmed
+                        </a>
+                    </div>
+                    <div class="creator-views">
+                        <p>300k view... 3 month ago</p>
+                        <span class="likes">300k <i class="material-icons">thumb_up</i>
+                            <span class="likes">10k <i class="material-icons">thumb_down</i></span>
+
+                        </span>
+
+                    </div>
+
+                </div>
+                <div class="creator-img">
+                    <video src="./Images/pexels-thirdman-5538137 (240p).mp4" controls></video>
+                    <div class="creator-profile">
+                        <img src="./Images/pexels-david-skyrius-2188888.jpg" alt="">
+                        <p>1$ hotel room vs 10k$ hotel room</p>
+                    </div>
+                    <div class="creator-title">
+                        <a href="">
+                            hesham ahmed
+                        </a>
+                    </div>
+                    <div class="creator-views">
+                        <p>300k view... 3 month ago</p>
+                        <span class="likes">300k <i class="material-icons">thumb_up</i>
+                            <span class="likes">10k <i class="material-icons">thumb_down</i></span>
+
+                        </span>
+
+                    </div>
+
+                </div>
+                <div class="creator-img">
+                    <video src="./Images/pexels-taryn-elliott-9116154 (360p).mp4" controls></video>
+                    <div class="creator-profile">
+                        <img src="./Images/pexels-david-skyrius-2188888.jpg" alt="">
+                        <p>1$ hotel room vs 10k$ hotel room</p>
+                    </div>
+                    <div class="creator-title">
+                        <a href="">
+                            hesham ahmed
+                        </a>
+                    </div>
+                    <div class="creator-views">
+                        <p>300k view... 3 month ago</p>
+                        <span class="likes">300k <i class="material-icons">thumb_up</i>
+                            <span class="likes">10k <i class="material-icons">thumb_down</i></span>
+
+                        </span>
+
+                    </div>
+
+                </div>
+                <div class="creator-img">
+                    <video src="./Images/video (240p) (1).mp4" controls></video>
+                    <div class="creator-profile">
+                        <img src="./Images/pexels-david-skyrius-2188888.jpg" alt="">
+                        <p>1$ hotel room vs 10k$ hotel room</p>
+                    </div>
+                    <div class="creator-title">
+                        <a href="">
+                            hesham ahmed
+                        </a>
+                    </div>
+                    <div class="creator-views">
+                        <p>300k view... 3 month ago</p>
+                        <span class="likes">300k <i class="material-icons">thumb_up</i>
+                            <span class="likes">10k <i class="material-icons">thumb_down</i></span>
+
+                        </span>
+
+                    </div>
+
+                </div>
+                <div class="creator-img">
+                    <video src="./Images/video (240p).mp4" controls></video>
+                    <div class="creator-profile">
+                        <img src="./Images/pexels-david-skyrius-2188888.jpg" alt="">
+                        <p>1$ hotel room vs 10k$ hotel room </p>
+                    </div>
+                    <div class="creator-title">
+                        <a href="">
+                            hesham ahmed
+                        </a>
+                    </div>
+                    <div class="creator-views">
+                        <p>300k view... 3 month ago</p>
+                        <span class="likes">300k <i class="material-icons">thumb_up</i>
+                            <span class="likes">10k <i class="material-icons">thumb_down</i></span>
+
+                        </span>
+
+                    </div>
+
+                </div>
+                <div class="creator-img">
+                    <video src="./Images/video (240p).mp4" controls></video>
+                    <div class="creator-profile">
+                        <img src="./Images/pexels-david-skyrius-2188888.jpg" alt="">
+                        <p>1$ hotel room vs 10k$ hotel room</p>
+                    </div>
+                    <div class="creator-title">
+                        <a href="">
+                            hesham ahmed
+                        </a>
+                    </div>
+                    <div class="creator-views">
+                        <p>300k view... 3 month ago</p>
+                        <span class="likes">300k <i class="material-icons">thumb_up</i>
+                            <span class="likes">10k <i class="material-icons">thumb_down</i></span>
+
+                        </span>
+
+                    </div>
+
+                </div>
+                <div class="creator-img">
+                    <video src="./Images/video (240p) (1).mp4" controls></video>
+                    <div class="creator-profile">
+                        <img src="./Images/pexels-david-skyrius-2188888.jpg" alt="">
+                        <p>1$ hotel room vs 10k$ hotel room</p>
+                    </div>
+                    <div class="creator-title">
+                        <a href="">
+                            hesham ahmed
+                        </a>
+                    </div>
+                    <div class="creator-views">
+                        <p>300k view... 3 month ago</p>
+                        <span class="likes">300k <i class="material-icons">thumb_up</i>
+                            <span class="likes">10k <i class="material-icons">thumb_down</i></span>
+
+                        </span>
+
+                    </div>
+
+                </div>
+                <div class="creator-img">
+                    <video src="./Images/video (240p).mp4" controls></video>
+                    <div class="creator-profile">
+                        <img src="./Images/pexels-david-skyrius-2188888.jpg" alt="">
+                        <p>1$ hotel room vs 10k$ hotel room</p>
+                    </div>
+                    <div class="creator-title">
+                        <a href="">
+                            hesham ahmed
+                        </a>
+                    </div>
+                    <div class="creator-views">
+                        <p>300k view... 3 month ago</p>
+                        <span class="likes" onclick="">300k <i class="material-icons">thumb_up</i>
+                            <span class="likes">10k <i class="material-icons">thumb_down</i></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </main>
+
+
+
+    <footer>
+        <div class="about-us">
+            <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo iste, magnam nobis dolore delectus
+                corrupti obcaecati accusantium esse? Possimus, suscipit.
+            </span>
+        </div>
+    </footer>
+
+
+
+    <script src="./js.js"></script>
+
+</body>
+
+</html>
